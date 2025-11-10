@@ -1,0 +1,37 @@
+# Ignore node modules
+node_modules/
+
+# Build and distribution directories
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+logs/
+*.log
+
+# OS and Editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Lockfiles (if you prefer not to track them)
+package-lock.json
+yarn.lock
+
+# Misc
+*.tmp
+*.bak
+
+# If you use local database files
+*.sqlite
+
+# End of file
